@@ -1,0 +1,9 @@
+How to set up this project
+
+1. Install Python {VERSION}
+  a. [Include links]
+  b. [Include install instructions]
+2. Setup your system variables to be python friendly
+  a. [Make a Bash script to do this]
+3. Run the {project root} script
+
