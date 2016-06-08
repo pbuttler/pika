@@ -9,3 +9,7 @@ Ideas:
     Team Management: Pikas are team members or documents, requests and notifications are "chirps"
     
 Time Manager/Habit Former
+  "Kronos???"
+  You give it goals, it give you ways to acheive them.
+  - Daily tasks
+  - Can search for and find tutorials?
