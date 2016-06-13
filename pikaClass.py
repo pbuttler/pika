@@ -1,6 +1,6 @@
-class Pika():
+class Pika(object):
     """A class for things that "exist""""
-    name = ""
+    name = "A new Pika"
     def __init__(self,*args):
         self.args = args
     def __repr__(self):
