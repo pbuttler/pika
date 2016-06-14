@@ -7,3 +7,7 @@ class Pika(object):
         return name
     def makeChirp(self,*args):
         newChirp = new Chirp(self)
+    def sendChirp(theChirp, theTarget):
+        #Function for sending a chirp
+    def hearChirp(theChirp):
+        #hear a chirp
