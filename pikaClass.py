@@ -9,5 +9,6 @@ class Pika(object):
         newChirp = new Chirp(self)
     def sendChirp(theChirp, theTarget):
         #Function for sending a chirp
+        print name + " just chirped at " + theTarget.name
     def hearChirp(theChirp):
         #hear a chirp
