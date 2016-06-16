@@ -1,6 +1,8 @@
 class Pika(object):
     """A class for things that "exist""""
     name = "A new Pika"
+    friends = {}                                                #A collection of non-strict relations
+    family  = {}                                                #A collection of strict relations
     def __init__(self,*args):
         self.args = args
     def __repr__(self):
