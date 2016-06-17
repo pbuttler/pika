@@ -1,3 +1,12 @@
+"""
+A chirp is a way for pikas to communicate
+This communication includes:
+- Waking up other pikas
+- Asking other pikas about their status
+- Giving other pikas a task
+...
+"""
+
 class Chirp(object):
     """This is a class whose members are messages It contains info on how to deliver and respond to its contained data"""
     creator = null
