@@ -12,5 +12,10 @@ class Pika(object):
     def sendChirp(theChirp, theTarget):
         #Function for sending a chirp
         print name + " just chirped at " + theTarget.name
-    def hearChirp(theChirp):
-        #hear a chirp
+    def hearChirp(source, theChirp):
+        # Hear a chirp
+        # - source      = The pika that sent the chirp
+        # - theChirp    = An chirp object
+        theChirp.mustExecute()                                  #Run the mandatory actions of the chirp, if they exist
+        if ("""conditions for optional chirps""")               #Run optional actions of the chirps, if this Pika "wants"
+            theChirp.canExecute()
