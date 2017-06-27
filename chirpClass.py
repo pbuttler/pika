@@ -12,8 +12,10 @@ class Chirp(object):
     creator = null
     label = "A new chirp"               #A name for this chirp
     data = {}                           #The content of this chirp
+    #Mandatory Action                   #All pikas who recieve this chirp MUST take this action
+    #Optional Action                    #All pikas who recieve this chirp can choose to take this action     
     def reverb():
-        #Rules on how to react to this chirp
+        #Rules on how to react to this chirp  
     def __init__(self,creator,*args):
         self.args = args
         self.creator = creator
